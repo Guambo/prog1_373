@@ -1,0 +1,23 @@
+state	0	start
+state	5	accept
+state	6	reject
+transition	0	1	3	1	R
+transition	3	0	4	0	R
+transition	1	_	7	_	R
+transition	0	_	5	_	R
+transition	0	0	1	x	R
+transition	1	1	2	x	L
+transition	2	0	2	0	L
+transition	2	1	2	1	L
+transition	2	x	2	x	L
+transition	4	0	4	0	L
+transition	4	1	4	1	L
+transition	4	_	4	_	L
+transition	4	x	4	x	L
+transition	1	0	1	0	R
+transition	1	x	1	x	R
+transition	3	1	3	1	R
+transition	0	x	0	x	R
+transition	7	_	7	_	R
+transition	2	_	0	_	R
+transition	3	_	6	_	R

@@ -1,0 +1,30 @@
+state	0	start
+state	3	reject
+state	4	accept
+transition	5	_	6	_	R
+transition	7	x	8	x	L
+transition	7	a	8	a	L
+transition	7	b	8	b	L
+transition	7	c	8	c	L
+transition	1	_	5	_	R
+transition	6	_	7	_	R
+transition	0	a	1	x	R
+transition	8	_	0	_	R
+transition	0	b	2	x	R
+transition	0	_	4	_	R
+transition	1	a	1	x	R
+transition	2	_	5	_	R
+transition	7	_	7	_	L
+transition	8	x	8	x	L
+transition	8	a	8	a	L
+transition	8	b	8	b	L
+transition	8	c	8	c	L
+transition	1	b	1	a	R
+transition	2	a	2	a	R
+transition	2	c	2	c	R
+transition	0	x	0	x	R
+transition	1	x	1	x	R
+transition	2	x	2	x	R
+transition	0	c	3	c	R
+transition	2	b	2	b	R
+transition	1	c	1	b	R
